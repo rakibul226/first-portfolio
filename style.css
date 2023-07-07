@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 
 nav{
@@ -14,6 +15,7 @@ color: #181818;
 font-weight: 800;
 line-height: normal;
 margin-left:145px;
+font-size: 45px;
 
 }
 nav > ul{
@@ -41,16 +43,73 @@ nav a{
 }
 .header{
     background-color: #a5e4ea;
-    margin: 0px 200px;
+    /* margin: 0px 200px; */
+    background-image: url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .profile-pic{
     width: 500px;
 }
 .banner-content{
+    max-width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474375;
+    margin: 0px;
+    
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-desc{
+    margin-bottom: 30px;
+}
+/* --------main Sec-------- */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+main section {
+    margin-top: 130px;
+}
 
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    margin-top: 130px 0px;
+    background: #e0d9d3;
+}
+.section-title{
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;  
+}
+.sec-desc{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
