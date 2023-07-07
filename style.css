@@ -7,11 +7,13 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: gray;
 }
 .logo{
 color: #181818;
 font-weight: 800;
 line-height: normal;
+margin-left:145px;
 
 }
 nav > ul{
@@ -36,4 +38,19 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+.header{
+    background-color: #a5e4ea;
+    margin: 0px 200px;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-pic{
+    width: 500px;
+}
+.banner-content{
+
 }
