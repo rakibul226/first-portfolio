@@ -101,10 +101,10 @@ main section {
     margin-top: 40px;
     margin-bottom: 30px;
     color: #757575;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 .about-info-container{
     display: flex;
@@ -112,4 +112,38 @@ line-height: 30px;
 }
 .about-info{
     text-align: center;
+}
+#sec-desc{
+    padding: 30px 150px;
+}
+
+
+/* -----------box section------------------- */
+
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box-content{
+    background-color: #e0d9d3;
+    width: 267px;
+    height: 377px;
+}
+.box-content img{
+    margin-top: 30px;
+    margin-bottom: 27px;
+    margin-left: 30px;
+}
+.box-content h3{
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.box-content p{
+    /* height: 196px;
+    width: 201px; */
+    margin: 30px 33px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
