@@ -46,10 +46,10 @@ nav a{
 }
 .header{
     background-color: #a5e4ea;
-    /* margin: 0px 200px; */
-    background-image: url("images/header_bg.png");
+    /* height: 100vh; */
+    background-image: url("images/header_bg.png"),url("images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -179,4 +179,42 @@ margin-bottom: 30px;
     color: #757575;
     font-size: 20px;
     font-weight: 600;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    background-color:#a5e4ea ;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+}
+.footer-coloum{
+    width: 50%;
+   
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+
+.social-con a{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.footer-desc{
+    margin:20px 0px;
+}
+.massage-title{
+    margin-bottom: 23px;
 }
